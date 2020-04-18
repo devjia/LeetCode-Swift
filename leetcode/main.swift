@@ -10,7 +10,4 @@ import Foundation
 
 print("Hello, World!")
 
-//var input = [-4, -1, -1, 0, 1, 2]
-//let output = Solution().threeSum(input)
-//print("output = \(output)")
 
