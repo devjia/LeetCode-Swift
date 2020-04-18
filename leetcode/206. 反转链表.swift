@@ -8,17 +8,8 @@
 
 import Foundation
 
-public class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
+private class Solution {
 
-class Solution {
-    
     /// 迭代
     func reverseList(_ head: ListNode?) -> ListNode? {
         var current: ListNode? = head

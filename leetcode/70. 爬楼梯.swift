@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Solution {
+private class Solution {
     func climbStairs(_ n: Int) -> Int {
         guard n > 2 else {
             return n
