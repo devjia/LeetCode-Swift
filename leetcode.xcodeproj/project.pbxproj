@@ -14,6 +14,7 @@
 		9795C001244B577A007E024B /* 11. 盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA33852447175F00367CD5 /* 11. 盛最多水的容器.swift */; };
 		9795C002244B577D007E024B /* 70. 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA33872447265F00367CD5 /* 70. 爬楼梯.swift */; };
 		9795C003244B577F007E024B /* 15. 三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97613F47244887EE00785BD4 /* 15. 三数之和.swift */; };
+		9795C005244B5A76007E024B /* 141. 环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795C004244B5A76007E024B /* 141. 环形链表.swift */; };
 		97CA337D2446EB6C00367CD5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA337C2446EB6C00367CD5 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		9795BFF8244B2BD7007E024B /* 206. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
 		9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		9795BFFD244B56D6007E024B /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		9795C004244B5A76007E024B /* 141. 环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141. 环形链表.swift"; sourceTree = "<group>"; };
 		97CA33792446EB6C00367CD5 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CA337C2446EB6C00367CD5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		97CA33832446EBB100367CD5 /* 283. 移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. 移动零.swift"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				97613F47244887EE00785BD4 /* 15. 三数之和.swift */,
 				9795BFF8244B2BD7007E024B /* 206. 反转链表.swift */,
 				9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */,
+				9795C004244B5A76007E024B /* 141. 环形链表.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				9795BFFC244B56B0007E024B /* 24. 两两交换链表中的节点.swift in Sources */,
 				9795C003244B577F007E024B /* 15. 三数之和.swift in Sources */,
 				9795BFFE244B56D6007E024B /* ListNode.swift in Sources */,
+				9795C005244B5A76007E024B /* 141. 环形链表.swift in Sources */,
 				9795BFFF244B5751007E024B /* 206. 反转链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
