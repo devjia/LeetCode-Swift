@@ -18,6 +18,8 @@ public class ListNode {
 }
 
 class Solution {
+    
+    /// 迭代
     func reverseList(_ head: ListNode?) -> ListNode? {
         var current: ListNode? = head
         var pre: ListNode? = nil
@@ -28,6 +30,17 @@ class Solution {
             current = next
         }
         return pre
+    }
+    
+    /// 递归
+    func reverseList2(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil {
+            return head
+        }
+        let p = reverseList2(head?.next)
+        head?.next?.next = head
+        head?.next = nil
+        return p
     }
 }
 
