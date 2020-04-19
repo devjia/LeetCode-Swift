@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		976A7233244C3024007694E5 /* 26. 删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A7232244C3024007694E5 /* 26. 删除排序数组中的重复项.swift */; };
 		9795BFFC244B56B0007E024B /* 24. 两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */; };
 		9795BFFE244B56D6007E024B /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFFD244B56D6007E024B /* ListNode.swift */; };
 		9795BFFF244B5751007E024B /* 206. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFF8244B2BD7007E024B /* 206. 反转链表.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		97613F47244887EE00785BD4 /* 15. 三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15. 三数之和.swift"; sourceTree = "<group>"; };
+		976A7232244C3024007694E5 /* 26. 删除排序数组中的重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. 删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
 		9795BFF8244B2BD7007E024B /* 206. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
 		9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		9795BFFD244B56D6007E024B /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */,
 				9795C004244B5A76007E024B /* 141. 环形链表.swift */,
 				9795C006244B6AFC007E024B /* 142. 环形链表 II.swift */,
+				976A7232244C3024007694E5 /* 26. 删除排序数组中的重复项.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				9795C003244B577F007E024B /* 15. 三数之和.swift in Sources */,
 				9795BFFE244B56D6007E024B /* ListNode.swift in Sources */,
 				9795C005244B5A76007E024B /* 141. 环形链表.swift in Sources */,
+				976A7233244C3024007694E5 /* 26. 删除排序数组中的重复项.swift in Sources */,
 				9795BFFF244B5751007E024B /* 206. 反转链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
