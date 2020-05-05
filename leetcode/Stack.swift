@@ -17,7 +17,9 @@ protocol Stackable {
 }
 
 extension Stackable {
-    var isEmpty: Bool { peek() == nil }
+    var isEmpty: Bool {
+        return peek() == nil
+    }
 }
 
 struct Stack<Element>: Stackable where Element: Equatable {
@@ -38,13 +40,19 @@ struct Stack<Element>: Stackable where Element: Equatable {
 }
 
 extension Stack: Equatable {
-    static func == (lhs: Stack<Element>, rhs: Stack<Element>) -> Bool { lhs.storage == rhs.storage }
+    static func == (lhs: Stack<Element>, rhs: Stack<Element>) -> Bool {
+        return lhs.storage == rhs.storage
+    }
 }
 
 extension Stack: CustomStringConvertible {
-    var description: String { "\(storage)" }
+    var description: String {
+        return "\(storage)"
+    }
 }
 
 extension Stack: ExpressibleByArrayLiteral {
-    init(arrayLiteral elements: Self.Element...) { storage = elements }
+    init(arrayLiteral elements: Self.Element...) {
+        storage = elements
+    }
 }
