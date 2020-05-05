@@ -8,7 +8,7 @@
 
 import Foundation
 
-private class Solution {
+class Solution {
     
     // 超出时间限制
 //    func hasCycle(_ head: ListNode?) -> Bool {

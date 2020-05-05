@@ -7,16 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		976A7233244C3024007694E5 /* 26. 删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A7232244C3024007694E5 /* 26. 删除排序数组中的重复项.swift */; };
-		9795BFFC244B56B0007E024B /* 24. 两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */; };
+		9785FF9E2461337E00E82BC4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FF9D2461337E00E82BC4 /* Stack.swift */; };
+		9785FFA0246135BA00E82BC4 /* 20. 有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */; };
 		9795BFFE244B56D6007E024B /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFFD244B56D6007E024B /* ListNode.swift */; };
-		9795BFFF244B5751007E024B /* 206. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFF8244B2BD7007E024B /* 206. 反转链表.swift */; };
-		9795C000244B5778007E024B /* 283. 移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA33832446EBB100367CD5 /* 283. 移动零.swift */; };
-		9795C001244B577A007E024B /* 11. 盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA33852447175F00367CD5 /* 11. 盛最多水的容器.swift */; };
-		9795C002244B577D007E024B /* 70. 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA33872447265F00367CD5 /* 70. 爬楼梯.swift */; };
-		9795C003244B577F007E024B /* 15. 三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97613F47244887EE00785BD4 /* 15. 三数之和.swift */; };
-		9795C005244B5A76007E024B /* 141. 环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795C004244B5A76007E024B /* 141. 环形链表.swift */; };
-		9795C007244B6AFC007E024B /* 142. 环形链表 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795C006244B6AFC007E024B /* 142. 环形链表 II.swift */; };
 		97CA337D2446EB6C00367CD5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA337C2446EB6C00367CD5 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +28,9 @@
 /* Begin PBXFileReference section */
 		97613F47244887EE00785BD4 /* 15. 三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15. 三数之和.swift"; sourceTree = "<group>"; };
 		976A7232244C3024007694E5 /* 26. 删除排序数组中的重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. 删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
+		976A7234244C31D7007694E5 /* 189. 旋转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189. 旋转数组.swift"; sourceTree = "<group>"; };
+		9785FF9D2461337E00E82BC4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. 有效的括号.swift"; sourceTree = "<group>"; };
 		9795BFF8244B2BD7007E024B /* 206. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
 		9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		9795BFFD244B56D6007E024B /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -79,6 +75,7 @@
 			children = (
 				97CA337C2446EB6C00367CD5 /* main.swift */,
 				9795BFFD244B56D6007E024B /* ListNode.swift */,
+				9785FF9D2461337E00E82BC4 /* Stack.swift */,
 				97CA33832446EBB100367CD5 /* 283. 移动零.swift */,
 				97CA33852447175F00367CD5 /* 11. 盛最多水的容器.swift */,
 				97CA33872447265F00367CD5 /* 70. 爬楼梯.swift */,
@@ -88,6 +85,8 @@
 				9795C004244B5A76007E024B /* 141. 环形链表.swift */,
 				9795C006244B6AFC007E024B /* 142. 环形链表 II.swift */,
 				976A7232244C3024007694E5 /* 26. 删除排序数组中的重复项.swift */,
+				976A7234244C31D7007694E5 /* 189. 旋转数组.swift */,
+				9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -150,17 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9795C001244B577A007E024B /* 11. 盛最多水的容器.swift in Sources */,
-				9795C007244B6AFC007E024B /* 142. 环形链表 II.swift in Sources */,
+				9785FFA0246135BA00E82BC4 /* 20. 有效的括号.swift in Sources */,
+				9785FF9E2461337E00E82BC4 /* Stack.swift in Sources */,
 				97CA337D2446EB6C00367CD5 /* main.swift in Sources */,
-				9795C000244B5778007E024B /* 283. 移动零.swift in Sources */,
-				9795C002244B577D007E024B /* 70. 爬楼梯.swift in Sources */,
-				9795BFFC244B56B0007E024B /* 24. 两两交换链表中的节点.swift in Sources */,
-				9795C003244B577F007E024B /* 15. 三数之和.swift in Sources */,
 				9795BFFE244B56D6007E024B /* ListNode.swift in Sources */,
-				9795C005244B5A76007E024B /* 141. 环形链表.swift in Sources */,
-				976A7233244C3024007694E5 /* 26. 删除排序数组中的重复项.swift in Sources */,
-				9795BFFF244B5751007E024B /* 206. 反转链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import Foundation
 
-private class Solution {
+class Solution {
 
     /// 迭代
     func reverseList(_ head: ListNode?) -> ListNode? {

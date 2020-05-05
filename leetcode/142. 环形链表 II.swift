@@ -8,7 +8,7 @@
 
 import Foundation
 
-private class Solution {
+class Solution {
     
     func detectCycle(_ head: ListNode?) -> ListNode? {
         if head == nil {

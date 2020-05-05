@@ -8,7 +8,7 @@
 
 import Foundation
 
-private class Solution {
+class Solution {
     func maxArea(_ height: [Int]) -> Int {
         var maxArea = 0
         var i = 0

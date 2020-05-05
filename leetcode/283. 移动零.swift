@@ -8,7 +8,7 @@
 
 import Foundation
 
-private class Solution {
+class Solution {
     func moveZeroes(_ nums: inout [Int]) {
         guard !nums.isEmpty else {
             return

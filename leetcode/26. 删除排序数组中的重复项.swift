@@ -8,7 +8,7 @@
 
 import Foundation
 
-private class Solution {
+class Solution {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         if nums.count < 2 {
             return nums.count
