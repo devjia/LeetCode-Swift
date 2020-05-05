@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9785FF9E2461337E00E82BC4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FF9D2461337E00E82BC4 /* Stack.swift */; };
-		9785FFA0246135BA00E82BC4 /* 20. 有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */; };
-		9785FFA224613E7700E82BC4 /* 155. 最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FFA124613E7700E82BC4 /* 155. 最小栈.swift */; };
 		9795BFFE244B56D6007E024B /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFFD244B56D6007E024B /* ListNode.swift */; };
 		97CA337D2446EB6C00367CD5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA337C2446EB6C00367CD5 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +31,7 @@
 		9785FF9D2461337E00E82BC4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. 有效的括号.swift"; sourceTree = "<group>"; };
 		9785FFA124613E7700E82BC4 /* 155. 最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155. 最小栈.swift"; sourceTree = "<group>"; };
+		9785FFA32461568100E82BC4 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
 		9795BFF8244B2BD7007E024B /* 206. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
 		9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		9795BFFD244B56D6007E024B /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -90,6 +89,7 @@
 				976A7234244C31D7007694E5 /* 189. 旋转数组.swift */,
 				9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */,
 				9785FFA124613E7700E82BC4 /* 155. 最小栈.swift */,
+				9785FFA32461568100E82BC4 /* 21. 合并两个有序链表.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -152,9 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9785FFA0246135BA00E82BC4 /* 20. 有效的括号.swift in Sources */,
 				9785FF9E2461337E00E82BC4 /* Stack.swift in Sources */,
-				9785FFA224613E7700E82BC4 /* 155. 最小栈.swift in Sources */,
 				97CA337D2446EB6C00367CD5 /* main.swift in Sources */,
 				9795BFFE244B56D6007E024B /* ListNode.swift in Sources */,
 			);
