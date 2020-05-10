@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9785FF9E2461337E00E82BC4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FF9D2461337E00E82BC4 /* Stack.swift */; };
+		9785FFA6246167D500E82BC4 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FFA5246167D500E82BC4 /* TreeNode.swift */; };
 		9795BFFE244B56D6007E024B /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFFD244B56D6007E024B /* ListNode.swift */; };
 		97CA337D2446EB6C00367CD5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA337C2446EB6C00367CD5 /* main.swift */; };
+		97EB10072467E5AB006198E7 /* 84. 柱状图中最大的矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB10062467E55D006198E7 /* 84. 柱状图中最大的矩形.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,8 @@
 		9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. 有效的括号.swift"; sourceTree = "<group>"; };
 		9785FFA124613E7700E82BC4 /* 155. 最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155. 最小栈.swift"; sourceTree = "<group>"; };
 		9785FFA32461568100E82BC4 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
+		9785FFA5246167D500E82BC4 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		9785FFA7246167FC00E82BC4 /* 98. 验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98. 验证二叉搜索树.swift"; sourceTree = "<group>"; };
 		9795BFF8244B2BD7007E024B /* 206. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
 		9795BFFA244B3A83007E024B /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		9795BFFD244B56D6007E024B /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		97CA33832446EBB100367CD5 /* 283. 移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. 移动零.swift"; sourceTree = "<group>"; };
 		97CA33852447175F00367CD5 /* 11. 盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11. 盛最多水的容器.swift"; sourceTree = "<group>"; };
 		97CA33872447265F00367CD5 /* 70. 爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70. 爬楼梯.swift"; sourceTree = "<group>"; };
+		97E84096246430F900D607F4 /* 572. 另一个树的子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "572. 另一个树的子树.swift"; sourceTree = "<group>"; };
+		97EB10062467E55D006198E7 /* 84. 柱状图中最大的矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "84. 柱状图中最大的矩形.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 			children = (
 				97CA337C2446EB6C00367CD5 /* main.swift */,
 				9795BFFD244B56D6007E024B /* ListNode.swift */,
+				9785FFA5246167D500E82BC4 /* TreeNode.swift */,
 				9785FF9D2461337E00E82BC4 /* Stack.swift */,
 				97CA33832446EBB100367CD5 /* 283. 移动零.swift */,
 				97CA33852447175F00367CD5 /* 11. 盛最多水的容器.swift */,
@@ -90,6 +97,9 @@
 				9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */,
 				9785FFA124613E7700E82BC4 /* 155. 最小栈.swift */,
 				9785FFA32461568100E82BC4 /* 21. 合并两个有序链表.swift */,
+				9785FFA7246167FC00E82BC4 /* 98. 验证二叉搜索树.swift */,
+				97E84096246430F900D607F4 /* 572. 另一个树的子树.swift */,
+				97EB10062467E55D006198E7 /* 84. 柱状图中最大的矩形.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -153,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9785FF9E2461337E00E82BC4 /* Stack.swift in Sources */,
+				97EB10072467E5AB006198E7 /* 84. 柱状图中最大的矩形.swift in Sources */,
 				97CA337D2446EB6C00367CD5 /* main.swift in Sources */,
 				9795BFFE244B56D6007E024B /* ListNode.swift in Sources */,
+				9785FFA6246167D500E82BC4 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

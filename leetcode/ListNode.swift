@@ -16,3 +16,9 @@ public class ListNode {
         self.next = nil
     }
 }
+
+extension ListNode: Equatable {
+    public static func == (lhs: ListNode, rhs: ListNode) -> Bool {
+        return lhs === rhs
+    }
+}

@@ -27,7 +27,7 @@ struct Stack<Element>: Stackable where Element: Equatable {
     private var storage = [Element]()
     
     func peek() -> Element? {
-        return storage.first
+        return storage.last
     }
     
     mutating func push(_ element: Element) {
