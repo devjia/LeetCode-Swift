@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		976F6A4B24721E7100B7C0BD /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976F6A4A24721E7100B7C0BD /* BubbleSort.swift */; };
+		976F6A4D2472205900B7C0BD /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976F6A4C2472205900B7C0BD /* QuickSort.swift */; };
 		9785FF9E2461337E00E82BC4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FF9D2461337E00E82BC4 /* Stack.swift */; };
 		9785FFA6246167D500E82BC4 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785FFA5246167D500E82BC4 /* TreeNode.swift */; };
 		9795BFFE244B56D6007E024B /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795BFFD244B56D6007E024B /* ListNode.swift */; };
 		97CA337D2446EB6C00367CD5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA337C2446EB6C00367CD5 /* main.swift */; };
-		97EB10072467E5AB006198E7 /* 84. 柱状图中最大的矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB10062467E55D006198E7 /* 84. 柱状图中最大的矩形.swift */; };
+		97EB100B24684A6E006198E7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB100A24684A6E006198E7 /* Queue.swift */; };
+		97EB100D24684E64006198E7 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB100C24684E64006198E7 /* Deque.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,9 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		975AEBCC2483EF5100DFB50C /* 101. 对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101. 对称二叉树.swift"; sourceTree = "<group>"; };
 		97613F47244887EE00785BD4 /* 15. 三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15. 三数之和.swift"; sourceTree = "<group>"; };
 		976A7232244C3024007694E5 /* 26. 删除排序数组中的重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. 删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
 		976A7234244C31D7007694E5 /* 189. 旋转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189. 旋转数组.swift"; sourceTree = "<group>"; };
+		976F6A4A24721E7100B7C0BD /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		976F6A4C2472205900B7C0BD /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		9785FF9D2461337E00E82BC4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		9785FF9F246135BA00E82BC4 /* 20. 有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. 有效的括号.swift"; sourceTree = "<group>"; };
 		9785FFA124613E7700E82BC4 /* 155. 最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155. 最小栈.swift"; sourceTree = "<group>"; };
@@ -48,6 +54,9 @@
 		97CA33872447265F00367CD5 /* 70. 爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70. 爬楼梯.swift"; sourceTree = "<group>"; };
 		97E84096246430F900D607F4 /* 572. 另一个树的子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "572. 另一个树的子树.swift"; sourceTree = "<group>"; };
 		97EB10062467E55D006198E7 /* 84. 柱状图中最大的矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "84. 柱状图中最大的矩形.swift"; sourceTree = "<group>"; };
+		97EB100824683DBF006198E7 /* 239. 滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. 滑动窗口最大值.swift"; sourceTree = "<group>"; };
+		97EB100A24684A6E006198E7 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		97EB100C24684E64006198E7 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +93,10 @@
 				9795BFFD244B56D6007E024B /* ListNode.swift */,
 				9785FFA5246167D500E82BC4 /* TreeNode.swift */,
 				9785FF9D2461337E00E82BC4 /* Stack.swift */,
+				97EB100A24684A6E006198E7 /* Queue.swift */,
+				97EB100C24684E64006198E7 /* Deque.swift */,
+				976F6A4A24721E7100B7C0BD /* BubbleSort.swift */,
+				976F6A4C2472205900B7C0BD /* QuickSort.swift */,
 				97CA33832446EBB100367CD5 /* 283. 移动零.swift */,
 				97CA33852447175F00367CD5 /* 11. 盛最多水的容器.swift */,
 				97CA33872447265F00367CD5 /* 70. 爬楼梯.swift */,
@@ -100,6 +113,8 @@
 				9785FFA7246167FC00E82BC4 /* 98. 验证二叉搜索树.swift */,
 				97E84096246430F900D607F4 /* 572. 另一个树的子树.swift */,
 				97EB10062467E55D006198E7 /* 84. 柱状图中最大的矩形.swift */,
+				97EB100824683DBF006198E7 /* 239. 滑动窗口最大值.swift */,
+				975AEBCC2483EF5100DFB50C /* 101. 对称二叉树.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -163,10 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9785FF9E2461337E00E82BC4 /* Stack.swift in Sources */,
-				97EB10072467E5AB006198E7 /* 84. 柱状图中最大的矩形.swift in Sources */,
+				97EB100D24684E64006198E7 /* Deque.swift in Sources */,
+				97EB100B24684A6E006198E7 /* Queue.swift in Sources */,
+				976F6A4D2472205900B7C0BD /* QuickSort.swift in Sources */,
 				97CA337D2446EB6C00367CD5 /* main.swift in Sources */,
 				9795BFFE244B56D6007E024B /* ListNode.swift in Sources */,
 				9785FFA6246167D500E82BC4 /* TreeNode.swift in Sources */,
+				976F6A4B24721E7100B7C0BD /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -59,18 +59,16 @@ class Solution {
     
     //单调递增栈 O(n)
     func largestRectangleArea_D(_ heights: [Int]) -> Int {
-        var heights = heights
-        heights.insert(0, at: 0)
-        heights.append(0)
-        var stack = Stack<Int>()
+        let heights = [0] + heights + [0]
+        var stack = [Int]()
         var maxArea: Int = 0
         for i in 0..<heights.count {
-            while !stack.isEmpty && heights[stack.peek()!] > heights[i]  {
-                let temp = stack.pop()!
-                let area = heights[temp] * (i - stack.peek()! - 1)
+            while !stack.isEmpty && heights[stack.last!] > heights[i] {
+                let temp = stack.removeLast()
+                let area = (i - stack.last! - 1) * heights[temp]
                 maxArea = max(maxArea, area)
             }
-            stack.push(i)
+            stack.append(i)
         }
         return maxArea
     }

@@ -10,8 +10,8 @@ import Foundation
 
 print("Hello, World!")
 
-let input = [2,1,5,6,2,3]
-
-let result = Solution().largestRectangleArea_D(input)
-
-print("result = \(result)")
+//var input = [2,1,5,6,2,3]
+//
+//quickSort(a: &input, low: 0, high: 5)
+//
+//print("result = \(input)")

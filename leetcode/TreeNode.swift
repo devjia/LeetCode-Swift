@@ -16,7 +16,6 @@ public class TreeNode {
         self.val = val
         self.left = nil
         self.right = nil
-        
     }
 }
 

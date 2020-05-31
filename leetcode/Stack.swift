@@ -8,21 +8,7 @@
 
 import Foundation
 
-protocol Stackable {
-    associatedtype Element
-    
-    func peek() -> Element?
-    mutating func push(_ element: Element)
-    @discardableResult mutating func pop() -> Element?
-}
-
-extension Stackable {
-    var isEmpty: Bool {
-        return peek() == nil
-    }
-}
-
-struct Stack<Element>: Stackable where Element: Equatable {
+struct Stack<Element> {
     
     private var storage = [Element]()
     
@@ -34,12 +20,16 @@ struct Stack<Element>: Stackable where Element: Equatable {
         storage.append(element)
     }
     
-    mutating func pop() -> Element? {
+    @discardableResult mutating func pop() -> Element? {
         return storage.popLast()
+    }
+    
+    var isEmpty: Bool {
+        return storage.isEmpty
     }
 }
 
-extension Stack: Equatable {
+extension Stack: Equatable where Element: Equatable {
     static func == (lhs: Stack<Element>, rhs: Stack<Element>) -> Bool {
         return lhs.storage == rhs.storage
     }
@@ -52,7 +42,7 @@ extension Stack: CustomStringConvertible {
 }
 
 extension Stack: ExpressibleByArrayLiteral {
-    init(arrayLiteral elements: Self.Element...) {
+    init(arrayLiteral elements: Element...) {
         storage = elements
     }
 }
