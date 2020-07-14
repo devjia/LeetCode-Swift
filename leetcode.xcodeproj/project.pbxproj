@@ -58,6 +58,7 @@
 		97EB100A24684A6E006198E7 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		97EB100C24684E64006198E7 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
 		D35FDDD624B5986D0040C25F /* 面试题 16.11. 跳水板.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 16.11. 跳水板.swift"; sourceTree = "<group>"; };
+		D36CF0EB24BBF6E70076F2C3 /* 83. 删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83. 删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 				97EB100824683DBF006198E7 /* 239. 滑动窗口最大值.swift */,
 				975AEBCC2483EF5100DFB50C /* 101. 对称二叉树.swift */,
 				D35FDDD624B5986D0040C25F /* 面试题 16.11. 跳水板.swift */,
+				D36CF0EB24BBF6E70076F2C3 /* 83. 删除排序链表中的重复元素.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
