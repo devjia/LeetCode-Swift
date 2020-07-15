@@ -22,3 +22,10 @@ extension ListNode: Equatable {
         return lhs === rhs
     }
 }
+
+extension ListNode: Hashable {
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(val)
+        hasher.combine(next)
+    }
+}
