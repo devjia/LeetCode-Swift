@@ -8,5 +8,19 @@
 
 import Foundation
 
-print("Hello, World!")
 
+//var head: ListNode? = nil
+//var prev: ListNode? = nil
+//
+//let input = [1, 2, 2, 1]
+//for i in input {
+//    let node = ListNode(i)
+//    if head == nil {
+//        head = node
+//    }
+//    prev?.next = node
+//    prev = node
+//}
+//let ret = Solution().isPalindrome(head)
+
+print("Hello, World!")
