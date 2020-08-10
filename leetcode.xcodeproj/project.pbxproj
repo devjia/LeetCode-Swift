@@ -15,7 +15,6 @@
 		97CA337D2446EB6C00367CD5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA337C2446EB6C00367CD5 /* main.swift */; };
 		97EB100B24684A6E006198E7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB100A24684A6E006198E7 /* Queue.swift */; };
 		97EB100D24684E64006198E7 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB100C24684E64006198E7 /* Deque.swift */; };
-		D35BE04B24D19CD40092998F /* 234. 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BE04A24D19CD40092998F /* 234. 回文链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +61,7 @@
 		D35FADEF24BE98B600475EF8 /* 160. 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. 相交链表.swift"; sourceTree = "<group>"; };
 		D35FDDD624B5986D0040C25F /* 面试题 16.11. 跳水板.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 16.11. 跳水板.swift"; sourceTree = "<group>"; };
 		D366684224CE69D7003C4082 /* 203. 移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203. 移除链表元素.swift"; sourceTree = "<group>"; };
+		D367420D24E1132700E57F25 /* 237. 删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. 删除链表中的节点.swift"; sourceTree = "<group>"; };
 		D36CF0EB24BBF6E70076F2C3 /* 83. 删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83. 删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +126,7 @@
 				D35FADEF24BE98B600475EF8 /* 160. 相交链表.swift */,
 				D366684224CE69D7003C4082 /* 203. 移除链表元素.swift */,
 				D35BE04A24D19CD40092998F /* 234. 回文链表.swift */,
+				D367420D24E1132700E57F25 /* 237. 删除链表中的节点.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -196,7 +197,6 @@
 				9795BFFE244B56D6007E024B /* ListNode.swift in Sources */,
 				9785FFA6246167D500E82BC4 /* TreeNode.swift in Sources */,
 				976F6A4B24721E7100B7C0BD /* BubbleSort.swift in Sources */,
-				D35BE04B24D19CD40092998F /* 234. 回文链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

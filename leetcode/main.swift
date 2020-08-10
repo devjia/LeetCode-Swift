@@ -12,7 +12,7 @@ import Foundation
 //var head: ListNode? = nil
 //var prev: ListNode? = nil
 //
-//let input = [1, 2, 2, 1]
+//let input = [1, 2, 3, 4, 5]
 //for i in input {
 //    let node = ListNode(i)
 //    if head == nil {
@@ -23,4 +23,4 @@ import Foundation
 //}
 //let ret = Solution().isPalindrome(head)
 
-print("Hello, World!")
+
