@@ -57,6 +57,7 @@
 		97EB100824683DBF006198E7 /* 239. 滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. 滑动窗口最大值.swift"; sourceTree = "<group>"; };
 		97EB100A24684A6E006198E7 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		97EB100C24684E64006198E7 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
+		D332EE8A24E3FCF800BD3660 /* 1290. 二进制链表转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. 二进制链表转整数.swift"; sourceTree = "<group>"; };
 		D35BE04A24D19CD40092998F /* 234. 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234. 回文链表.swift"; sourceTree = "<group>"; };
 		D35FADEF24BE98B600475EF8 /* 160. 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. 相交链表.swift"; sourceTree = "<group>"; };
 		D35FDDD624B5986D0040C25F /* 面试题 16.11. 跳水板.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 16.11. 跳水板.swift"; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 				D35BE04A24D19CD40092998F /* 234. 回文链表.swift */,
 				D367420D24E1132700E57F25 /* 237. 删除链表中的节点.swift */,
 				D365B0F724E23800007FD15E /* 876. 链表的中间结点.swift */,
+				D332EE8A24E3FCF800BD3660 /* 1290. 二进制链表转整数.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
