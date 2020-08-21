@@ -66,6 +66,7 @@
 		D367420D24E1132700E57F25 /* 237. 删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. 删除链表中的节点.swift"; sourceTree = "<group>"; };
 		D36CF0EB24BBF6E70076F2C3 /* 83. 删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83. 删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
 		D37A0B1224E5087200115EEA /* 剑指 Offer 06. 从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 06. 从尾到头打印链表.swift"; sourceTree = "<group>"; };
+		D3A5A67324EF57AD005787A9 /* 剑指 Offer 18. 删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 18. 删除链表的节点.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +134,7 @@
 				D365B0F724E23800007FD15E /* 876. 链表的中间结点.swift */,
 				D332EE8A24E3FCF800BD3660 /* 1290. 二进制链表转整数.swift */,
 				D37A0B1224E5087200115EEA /* 剑指 Offer 06. 从尾到头打印链表.swift */,
+				D3A5A67324EF57AD005787A9 /* 剑指 Offer 18. 删除链表的节点.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
